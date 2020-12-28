@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: rgb(44, 40, 17);
+
+}
+
+p{
+    color: blanchedalmond;
+    margin: 12% 2%;
+    font-size: 3em;
+    text-shadow: 0px 0px 6px #000000;
+    text-align: center;
+
+}
+
+main {
+    background: linear-gradient(rgba(136, 240, 171, 0.116), rgba(87, 134, 26, 0.5));
+    width: 25%;
+    height: 45%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+section {
+    background-repeat:repeat-x;
+    background-image: url('img/img1.png');
+    background-size: 80px;
+    background-position-y: bottom;
+}
+
+img{
+    width: 420px;
+    margin: 3% -20% -44% -60%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+
+
+.tela{
+    box-shadow: 0px 0px 5px 4px rgba(208, 255, 0, 0.2);
+    background-color: #142c13;
+    color: white;
+    margin: auto;
+    width: 75%;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+    padding: 1px;
+}
+
+.resultados{
+    display: table-cell;
+    text-align: right;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+
+
+label {
+    color: aliceblue;
+    font-size: 2em;
+    text-shadow: 0px 0px 6px #356111;
+    text-align: center;
+    margin: 0% 2% 0% 5%;
+}
+
+input {
+    margin: 1%;
+    color: rgb(64, 73, 25);
+    border-radius: 3px;
+    border: none;
+    font-size: 1.7em;
+    padding: 4px;
+    width: 25%;
+    outline: none;
+}
+
+input[type="button"]{
+    color: wheat;
+    background-color: rgb(87, 107, 35);
+    border-radius: 7px;
+    font-size: 1.8em;
+    padding: 4px;
+    width: 30%;
+    outline: none;
+    margin: 10% 35% 20%;
+    box-shadow: 0 1px 1px rgb(245, 222, 179), 0 1px 1px rgba(0, 0, 0, 0.24);
+} 
+
+input[type="button"]:hover{
+    color:  rgb(87, 107, 35);
+    background-color: rgb(245, 222, 179);
+    transition: all 0.9s ease;
+
+    box-shadow: 0 1px 1px rgb(0, 0, 0), 0 1px 1px  rgb(245, 222, 179);
+} 
+
