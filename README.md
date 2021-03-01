@@ -1,5 +1,3 @@
-# Desafio-da-Semana-Dois
-
 # Desafio Semana Dois
 
 <p> - Desafio feito pela Faculdade iv2 durante a Semana Dois o curso Beginner, a ideia e criar uma aplicação usando HTML, CSS e JS que se calcula através do MOLS da Cana-de-Açúcar o valor em reais informando a grama utilizada... </p>
